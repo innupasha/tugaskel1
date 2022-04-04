@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,14 +40,11 @@
                 </div>
                 <hr>
     <a href="admin/" class="btn btn-primary btn-lg btn-block mt-5 no-decoration">Admin</a>
-
-
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
 
   <!-- Bootstrap core JavaScript-->
@@ -62,5 +58,4 @@
   <script src="admin/js/benny.min.js"></script>
 
 </body>
-
 </html>
