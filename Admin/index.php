@@ -259,8 +259,6 @@ $jum = $row['id'];
 
 </div>
 </div>
-
-
           <!-- Footer -->
           <footer class="sticky-footer bg-white">
             <div class="container my-auto">
@@ -269,7 +267,7 @@ $jum = $row['id'];
               </div>
             </div>
           </footer>
-          </div>
+        
           <!-- End of Content Wrapper -->
 
 
