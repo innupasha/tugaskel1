@@ -61,4 +61,4 @@ PRIMARY KEY(id)
 );
 
 INSERT INTO `about` (`id`, `foto`, `nama`) VALUES
-(1, 'admin.png', 'Warung Koding');
+(1, 'admin.png', 'Warung Informatika');

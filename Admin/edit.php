@@ -1,5 +1,3 @@
-
-
 <?php
 session_start();
 
@@ -35,7 +33,7 @@ ob_start()
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/benny.min.css" rel="stylesheet">
 
 </head>
 
@@ -54,7 +52,7 @@ ob_start()
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Informatika B<sup>2.1</sup></div>
       </a>
 
       <!-- Divider -->
@@ -132,10 +130,6 @@ ob_start()
                 </form>
               </div>
             </li>
-
-
-
-
 
 
             <div class="topbar-divider d-none d-sm-block"></div>
@@ -251,9 +245,6 @@ ob_start()
 
             if(isset($_POST['edit'])){
 
-
-
-
            $edit = mysqli_query($conn, "UPDATE masuk SET
           nama ='".$_POST['nama']."',
          jenis ='".$_POST['jenis']."',
@@ -268,7 +259,6 @@ ob_start()
               header("location: Data.php");
             }else{
 
-
                               echo "<div class='col-md-10 col-sm-12 col-xs-12 ml-5'>";
                                  echo "<div class='alert alert-danger mt-4 ml-5' role='alert'>";
                                 echo "<p><center>Mengedit Data Gagal</center></p>";
@@ -278,23 +268,7 @@ ob_start()
             }
 
             }
-
-
-
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 </div>
 
@@ -303,17 +277,13 @@ ob_start()
 <footer class="sticky-footer bg-white">
   <div class="container my-auto">
     <div class="copyright text-center my-auto">
-      <span><p class="mb-1">Copyright &copy; <a href="https://github.com/Faiznurullah" style="text-decoration: none;"><b>Faiz Nurullah</b></a></p></span><br>
+      <span><p class="mb-1">Copyright &copy; <a href="https://github.com/innupasha" style="text-decoration: none;"><b>Benny maulana</b></a></p></span><br>
     </div>
   </div>
 </footer>
 </div>
 
 </div>
-
-
-
-
                 <!-- Scroll to Top Button-->
                 <a class="scroll-to-top rounded" href="#page-top">
                   <i class="fas fa-angle-up"></i>
@@ -346,7 +316,7 @@ ob_start()
                 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
                 <!-- Custom scripts for all pages-->
-                <script src="js/sb-admin-2.min.js"></script>
+                <script src="js/benny.min.js"></script>
 
                 <!-- Page level plugins -->
                 <script src="vendor/chart.js/Chart.min.js"></script>

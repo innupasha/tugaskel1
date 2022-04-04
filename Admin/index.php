@@ -17,9 +17,6 @@ $jum = $row['id'];
   $Jumlah_modal=mysqli_query($conn, "select sum(jumlah_modal) as total from modal");
   $total=mysqli_fetch_array($Jumlah_modal);
 
-
-
-
     $Jumlah_B=mysqli_query($conn, "select sum(JumlahB) as jumlah from masuk");
     $jumlahB=mysqli_fetch_array($Jumlah_B);
 
@@ -28,10 +25,6 @@ $jum = $row['id'];
 
     $nama = mysqli_query($conn, "select * from about");
     $profile = mysqli_fetch_array($nama);
-
-
-
-
 
  ?>
 
@@ -53,7 +46,7 @@ $jum = $row['id'];
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/benny.min.css" rel="stylesheet">
 
 </head>
 
@@ -70,7 +63,7 @@ $jum = $row['id'];
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Informatika B<sup>2.1</sup></div>
       </a>
 
       <!-- Divider -->
@@ -128,11 +121,6 @@ $jum = $row['id'];
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
-
-
-
-
-
 
             <div class="topbar-divider d-none d-sm-block"></div>
 
@@ -277,7 +265,7 @@ $jum = $row['id'];
           <footer class="sticky-footer bg-white">
             <div class="container my-auto">
               <div class="copyright text-center my-auto">
-                <span><p class="mb-1">Copyright &copy; <a href="https://github.com/Faiznurullah" style="text-decoration: none;"><b>Faiz Nurullah</b></a></p></span><br>
+                <span><p class="mb-1">Copyright &copy; <a href="https://github.com/innupasha" style="text-decoration: none;"><b>Benny maulana</b></a></p></span><br>
               </div>
             </div>
           </footer>
@@ -317,7 +305,7 @@ $jum = $row['id'];
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
+  <script src="js/benny.min.js"></script>
 
   <!-- Page level plugins -->
   <script src="vendor/chart.js/Chart.min.js"></script>

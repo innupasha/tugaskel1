@@ -11,7 +11,6 @@ ob_start()
 
  ?>
 
-
  <!doctype html>
  <html lang="en">
    <head>
@@ -35,8 +34,6 @@ ob_start()
        <th scope="col">Jumlah Barang</th>
        <th scope="col">Harga Satuan</th>
        <th scope="col">Total</th>
-
-
 
      </tr>
 
@@ -72,8 +69,6 @@ ob_start()
  header("Content-type: application/vnd.ms-excel");
  header("Content-Disposition: attachment; filename= Data_Warung.xls");
  ?>
-
-
 
      <!--ini akhir content bosq-->
 

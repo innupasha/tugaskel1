@@ -27,7 +27,7 @@ error_reporting(0);
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/benny.min.css" rel="stylesheet">
 
 </head>
 
@@ -46,7 +46,7 @@ error_reporting(0);
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Informatika B<sup>2.1</sup></div>
       </a>
 
       <!-- Divider -->
@@ -99,7 +99,6 @@ error_reporting(0);
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
-
 
 
           <!-- Topbar Navbar -->
@@ -204,8 +203,6 @@ error_reporting(0);
 
 
 
-
-
 <div class="row">
   <div class="col-md-1">
 
@@ -239,9 +236,6 @@ error_reporting(0);
 </div>
 
 
-
-
-
 <?php
 if(isset($_POST['kirim'])){
   $nama = htmlspecialchars($_POST['nama_b']);
@@ -251,9 +245,6 @@ if(isset($_POST['kirim'])){
   $jual = htmlspecialchars($_POST['jual']);
   $jumlah = htmlspecialchars($_POST['jumlah']);
   $modald = $modal * $jumlah;
-
-
-
 
 
    $wet =mysqli_query($conn, "select * from masuk where nama ='$nama' and jenis ='$jenis' and suplier ='$suplier'");
@@ -316,14 +307,8 @@ if(isset($_POST['kirim'])){
    }
 
 
-
-
  }
  ?>
-
-
-
-
 
 
 <div class="col-md-1">
@@ -379,7 +364,7 @@ $untung = ($jumlahd['tor']) - ($total['total']);
 
 <div class="row">
 <div class="col-md-8  mt-4">
-<h2><center> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Data Produk Warung Kita</center></h2>
+<h2><center> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Data Produk Warung Kita</center></h2>
 </div>
 </div>
 
@@ -395,14 +380,11 @@ $untung = ($jumlahd['tor']) - ($total['total']);
   </div>
 
 
-
-
 <div class="row mt-3">
 
 
 <div class="col-md-8  mt-4">
 <br>
-
 
 
 </div>
@@ -471,19 +453,13 @@ if(mysqli_num_rows($brg) > 0){
 }
 
 
-
-
 	}else{
 		$brg=mysqli_query($conn, "select * from masuk limit $start, $hal");
 	}
 
 
 
-
 if(mysqli_num_rows($brg)){
-
-
-
 
 
      while($row = mysqli_fetch_array($brg)){
@@ -554,19 +530,10 @@ if(mysqli_num_rows($brg)){
 
   ?>
 
-
-
 </ul>
 </nav>
 </div>
 </div>
-
-
-
-
-
-
-
 </div>
 
 
@@ -578,13 +545,11 @@ if(mysqli_num_rows($brg)){
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span><p class="mb-1">Copyright &copy; <a href="https://github.com/Faiznurullah" style="text-decoration: none;"><b>Faiz Nurullah</b></a></p></span><br>
+            <span><p class="mb-1">Copyright &copy; <a href="https://github.com/innupasha" style="text-decoration: none;"><b>Benny maulana</b></a></p></span><br>
           </div>
         </div>
       </footer>
       </div>
-
-
 
 
     </div>
@@ -622,7 +587,7 @@ if(mysqli_num_rows($brg)){
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="js/benny.min.js"></script>
 
     <!-- Page level plugins -->
     <script src="vendor/chart.js/Chart.min.js"></script>

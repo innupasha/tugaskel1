@@ -3,8 +3,6 @@ include 'koneksi.php';
 
 $delete = mysqli_query($conn, "DELETE FROM keluar WHERE id = '".$_GET['id']."'");
 
-
-
 $query = mysqli_query($conn, "SELECT * FROM keluar ORDER BY id");
 $hasil = ($query);
 
