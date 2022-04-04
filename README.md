@@ -1,7 +1,6 @@
 # Tugas CRUD LOGIN LOGOUT EXPORT dengan PHP
  pemrograman web
 
-# Inventory-Barang
 <p><b><i>Source Code ini Di Bangun Menggunakan Php sebagai Backend Dan Admin Sb 2 Sebagai Frontend, Application ini di buat oleh Kelompok 1 Prodi Informatika B2.1. UNBARA</i></b><br></p>
 <b><i>Fitur-Fitur Application:</i></b><br>
 <b><i>-Sistem Login Sebagai Admin</i></b><br>
