@@ -2,7 +2,10 @@
 # Tugas CRUD SEARCHING LOGIN LOGOUT EXPORT dengan PHP
  pemrograman web
 
-<p><b><i>Source Code ini Di Bangun Menggunakan Php sebagai Backend Dan Admin Sb 2 Sebagai Frontend, Application ini di buat oleh Kelompok 1 Prodi Informatika B2.1. UNBARA</i></b><br></p>
+<p><b><i>Source Code ini Di Bangun Menggunakan Php sebagai Backend Dan Admin Sb 2 Sebagai Frontend, Application ini di buat oleh Kelompok 1 Prodi Informatika B2.1. UNBARA :
+ 1. Aden Mas Prayoga
+ 2. Benny Maulana
+ 3. Piqih Meris Berdiyan</i></b><br></p>
 <b><i>Fitur-Fitur Application:</i></b><br>
 <b><i>-Sistem Login Sebagai Admin</i></b><br>
 <b><i>-Create Data Produk Penjualan</i></b><br>
