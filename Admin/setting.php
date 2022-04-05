@@ -15,7 +15,6 @@ ob_start()
 
  ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,8 +36,6 @@ ob_start()
 
   <!-- Custom styles for this template-->
   <link href="css/benny.min.css" rel="stylesheet">
-
-
 
 </head>
 
@@ -82,8 +79,6 @@ ob_start()
       <!-- Divider -->
       <hr class="sidebar-divider">
 
-
-
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 
@@ -113,7 +108,6 @@ ob_start()
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
-
             <?php
 
             $t = mysqli_query($conn, "select * from about");
@@ -125,7 +119,6 @@ ob_start()
 <?php
 $sss = mysqli_query($conn, "select * from admin");
 $rrr = mysqli_fetch_array($sss);
-
 
  ?>
 
@@ -253,7 +246,6 @@ if($insert){
 }
 
 
-
 }else{
 
   echo "<div class='col-md-10 col-sm-12 col-xs-12 ml-5 mt-5'>";
@@ -262,9 +254,7 @@ if($insert){
      echo   "</div>";
      echo "</div>";
 
-
 }
-
 
 }else{
   echo "<div class='col-md-10 col-sm-12 col-xs-12 ml-5 mt-5'>";
@@ -296,7 +286,6 @@ if($insert){
 
  </div>
 </div>
-
 
         <!-- Scroll to Top Button-->
         <a class="scroll-to-top rounded" href="#page-top">
